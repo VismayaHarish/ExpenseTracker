@@ -1,0 +1,30 @@
+{
+  "name": "expense-tracker-aws",
+  "version": "1.0.0",
+  "description": "Complete expense tracker with AWS backend",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "deploy": "aws s3 sync dist/ s3://your-bucket-name --delete"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.8.0",
+    "aws-sdk": "^2.1300.0",
+    "recharts": "^2.5.0",
+    "lucide-react": "^0.263.1",
+    "date-fns": "^2.29.3"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.27",
+    "@types/react-dom": "^18.0.10",
+    "@vitejs/plugin-react": "^3.1.0",
+    "vite": "^4.1.0",
+    "tailwindcss": "^3.2.7",
+    "autoprefixer": "^10.4.13",
+    "postcss": "^8.4.21"
+  }
+}
