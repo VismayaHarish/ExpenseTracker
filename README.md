@@ -1,54 +1,54 @@
-# 💰 Expense Tracker
+# Expense Tracker
 
 A complete expense tracking application built with React and AWS services. Track your daily expenses, analyze spending patterns, and manage your budget effectively.
 
-## ✨ Features
+## Features
 
-### 📱 User Interface
+### User Interface
 - **Modern Dashboard** - Clean, responsive design optimized for mobile
 - **Expense Management** - Add, edit, and delete expenses with ease
 - **Smart Navigation** - Bottom navigation for mobile-first experience
 - **Dark/Light Theme** - Toggle between themes for comfortable viewing
 
-### 💳 Expense Management
+### Expense Management
 - **Quick Entry** - Add expenses with amount, category, date, and description
 - **Payment Methods** - Track Cash, UPI, Card, and Bank transfers
 - **Categories** - 9 predefined categories with emoji icons:
-  - 🍔 Food
-  - 🚗 Transport  
-  - 🏠 Rent
-  - 🛍️ Shopping
-  - 🎮 Entertainment
-  - 💡 Bills
-  - 💊 Health
-  - 🎓 Education
-  - 📝 Others
+  -  Food
+  -  Transport  
+  -  Rent
+  -  Shopping
+  -  Entertainment
+  -  Bills
+  -  Health
+  -  Education
+  -  Others
 
-### 📊 Analytics & Reports
+###  Analytics & Reports
 - **Visual Charts** - Pie charts and bar graphs using Recharts
 - **Category Breakdown** - See spending by category with percentages
 - **Time Filters** - View expenses by week, month, quarter, or year
 - **Spending Trends** - Monthly spending analysis
 - **Summary Stats** - Total, average, and highest expenses
 
-### 🎯 Budget Management
+###  Budget Management
 - **Monthly Budgets** - Set and track monthly spending limits
 - **Budget Alerts** - Visual indicators when approaching or exceeding budget
 - **Progress Tracking** - Real-time budget utilization display
 
-### 🔍 Search & Filter
+###  Search & Filter
 - **Smart Search** - Find expenses by description or category
 - **Category Filter** - Filter by specific expense categories
 - **Date Range Filter** - View expenses for specific time periods
 - **Real-time Results** - Instant filtering as you type
 
-### ⚙️ Settings & Data
+###  Settings & Data
 - **Multi-Currency** - Support for ₹, $, €, £, ¥
 - **Data Export/Import** - Backup and restore your data as JSON
 - **Local Storage** - Works offline with browser storage
 - **AWS Integration** - Optional cloud sync with DynamoDB
 
-## 🏗️ Architecture
+##  Architecture
 
 ### Frontend
 - **React 18** - Modern React with hooks and context
@@ -66,7 +66,7 @@ A complete expense tracking application built with React and AWS services. Track
 - **Cognito** - Identity management (optional)
 - **CloudFormation** - Infrastructure as Code
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Prerequisites
 - Node.js 16+ and npm
@@ -109,7 +109,7 @@ The app works immediately with localStorage - no AWS setup required for local de
 3. **Access Your App**
    The deployment script will provide your CloudFront URL.
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 expense-tracker/
@@ -135,7 +135,7 @@ expense-tracker/
 └── package.json            # Dependencies and scripts
 ```
 
-## 🔧 Configuration
+##  Configuration
 
 ### Environment Variables
 
@@ -158,7 +158,7 @@ REACT_APP_AWS_SECRET_ACCESS_KEY=your_secret_key
 - **Cognito Identity Pool** - Manages user authentication
 - **IAM Roles** - Secure access permissions
 
-## 📱 Mobile Experience
+##  Mobile Experience
 
 The app is designed mobile-first with:
 - **Responsive Design** - Works on all screen sizes
@@ -167,14 +167,14 @@ The app is designed mobile-first with:
 - **Fast Loading** - Optimized for mobile networks
 - **Offline Support** - Works without internet connection
 
-## 🔒 Security
+##  Security
 
 - **No Personal Data** - Only expense amounts and categories stored
 - **Local Storage** - Data stays on your device by default
 - **AWS Security** - Industry-standard cloud security when using AWS
 - **No Authentication Required** - Simple, privacy-focused design
 
-## 🛠️ Development
+##  Development
 
 ### Available Scripts
 - `npm run dev` - Start development server
@@ -189,7 +189,7 @@ The app is built with extensibility in mind:
 - Extend charts in `Reports.jsx`
 - Add new themes in `Settings.jsx`
 
-## 📊 Data Storage
+##  Data Storage
 
 ### Local Storage (Default)
 - Expenses stored in browser localStorage
@@ -203,7 +203,7 @@ The app is built with extensibility in mind:
 - Scalable and reliable
 - Requires AWS setup
 
-## 🎨 Customization
+##  Customization
 
 ### Themes
 - Light and dark themes included
@@ -220,7 +220,7 @@ The app is built with extensibility in mind:
 - Easy to add new currencies
 - Localized formatting
 
-## 🤝 Contributing
+##  Contributing
 
 1. Fork the repository
 2. Create a feature branch
@@ -228,11 +228,11 @@ The app is built with extensibility in mind:
 4. Test thoroughly
 5. Submit a pull request
 
-## 📄 License
+##  License
 
 This project is open source and available under the MIT License.
 
-## 🆘 Support
+##  Support
 
 - Check the Issues tab for common problems
 - Review AWS documentation for cloud setup
@@ -241,4 +241,4 @@ This project is open source and available under the MIT License.
 
 ---
 
-Built with ❤️ using React and AWS
+Built using React and AWS
